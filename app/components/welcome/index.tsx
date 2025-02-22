@@ -32,6 +32,10 @@ export function Welcome() {
 
 const componetsRoutes = [
   {
+    href: '/inverted-border-radius',
+    text: 'Inverted Border Radius',
+  },
+  {
     href: '/contact-us',
     text: 'Contact Us',
   },
