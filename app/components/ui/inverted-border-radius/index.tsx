@@ -1,4 +1,5 @@
 import One from './One';
+import Three from './Three';
 import Two from './Two';
 
 export const InvertedBorderRadius = () => {
@@ -6,6 +7,7 @@ export const InvertedBorderRadius = () => {
     <>
       <One />
       <Two />
+      <Three />
     </>
   );
 };

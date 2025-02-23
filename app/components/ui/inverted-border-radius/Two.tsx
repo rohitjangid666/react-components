@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import styles from './two.module.css';
+import styles from './styles/two.module.css';
 
 const Button: React.FC<{ children: React.ReactNode; className: string; textClass?: string }> = ({
   children,
