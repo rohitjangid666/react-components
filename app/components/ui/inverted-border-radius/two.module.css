@@ -1,0 +1,16 @@
+.card-image-with-svg-mask {
+  background-image: url('https://images.unsplash.com/photo-1632993950427-44e4c8f90023?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTgwOTN8MHwxfHNlYXJjaHwxfHxrb2VuaWdzZWdnfGVufDB8fHx8MTc0MDIwMjAwNHww&ixlib=rb-4.0.3&q=80&w=1080');
+  -webkit-mask: url('/images/top-center.png') center / contain no-repeat,
+    url('/images/bottom-right.png') center / contain no-repeat, linear-gradient(#000000 0 0);
+  mask-size: 22rem, 30rem;
+  mask-position: top center, bottom right;
+  mask-composite: exclude;
+}
+
+.btn-top-center-text {
+  background: url('https://images.unsplash.com/photo-1632993950427-44e4c8f90023?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTgwOTN8MHwxfHNlYXJjaHwxfHxrb2VuaWdzZWdnfGVufDB8fHx8MTc0MDIwMjAwNHww&ixlib=rb-4.0.3&q=80&w=1080')
+    top / cover no-repeat;
+  background-clip: text;
+  background-position-x: center;
+  color: transparent;
+}
