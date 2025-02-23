@@ -36,6 +36,10 @@ const componetsRoutes = [
     text: 'Inverted Border Radius',
   },
   {
+    href: '/corner-only-borders',
+    text: 'Corner Only Borders',
+  },
+  {
     href: '/contact-us',
     text: 'Contact Us',
   },
