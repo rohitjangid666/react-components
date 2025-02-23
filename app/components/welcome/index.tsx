@@ -40,6 +40,10 @@ const componetsRoutes = [
     text: 'Corner Only Borders',
   },
   {
+    href: '/cards',
+    text: 'Cards',
+  },
+  {
     href: '/contact-us',
     text: 'Contact Us',
   },
