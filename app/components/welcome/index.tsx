@@ -9,7 +9,7 @@ export function Welcome() {
         <header className='flex flex-col items-center gap-9'>
           <Logo />
         </header>
-        <div className='max-w-7xl w-full space-y-6 px-4'>
+        <div className='max-w-[90vw] w-full space-y-6 px-4'>
           <nav className='rounded-3xl border border-gray-200 p-6 dark:border-gray-700 space-y-4'>
             <ul>
               {componetsRoutes.map(({ href, text }) => (

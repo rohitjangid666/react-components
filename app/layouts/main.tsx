@@ -11,7 +11,7 @@ const MainLayout = () => {
             {pathname.replaceAll('/', '').replaceAll('-', ' ')}
           </h1>
         </header>
-        <div className='max-w-7xl w-full space-y-6 px-4'>
+        <div className='max-w-[90vw] w-full space-y-6 px-4'>
           <div className='rounded-3xl border border-gray-200 p-6 dark:border-gray-700 space-y-4'>
             <Outlet />
           </div>
