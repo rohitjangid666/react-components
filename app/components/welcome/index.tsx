@@ -44,6 +44,10 @@ const componetsRoutes = [
     text: 'Cards',
   },
   {
+    href: '/input-field-grows',
+    text: 'Input Field Grows',
+  },
+  {
     href: '/contact-us',
     text: 'Contact Us',
   },

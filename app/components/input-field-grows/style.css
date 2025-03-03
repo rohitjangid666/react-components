@@ -1,0 +1,16 @@
+input {
+  max-width: 100%;
+  min-width: 100px;
+}
+
+textarea {
+  max-width: 500px;
+  min-width: 300px;
+  min-height: 3rem;
+}
+
+input,
+select,
+textarea {
+  field-sizing: content;
+}
