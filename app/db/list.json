@@ -1,0 +1,199 @@
+[
+  {
+    "title": "Sunset in Bali",
+    "description": "A beautiful sunset over the ocean in Bali.",
+    "resource": "https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg"
+  },
+  {
+    "title": "City Skyline",
+    "description": "A vibrant city skyline at night.",
+    "resource": "https://www.youtube.com/embed/I8fQ5zL9230?si=_SJDxRNrHLy2rIB6"
+  },
+  {
+    "title": "Mountain Hiking",
+    "description": "Hiking through the majestic mountains in Switzerland."
+  },
+  { "title": "Forest Path", "description": "A peaceful walk along a forest path during autumn." },
+  {
+    "title": "Ocean Waves",
+    "description": "Waves crashing on the beach during the day."
+  },
+  {
+    "title": "Ski Resort",
+    "description": "Skiing down the slopes of a winter resort.",
+    "resource": "https://www.youtube.com/embed/e5R0Ju2Abfs?si=tcnocL87GkhqjeX8"
+  },
+  {
+    "title": "Desert Sunset",
+    "description": "A beautiful desert landscape at sunset.",
+    "resource": "https://images.pexels.com/photos/1613706/pexels-photo-1613706.jpeg"
+  },
+  {
+    "title": "City Traffic",
+    "description": "A busy street in a major city during rush hour.",
+    "resource": "https://images.pexels.com/photos/1570427/pexels-photo-1570427.jpeg"
+  },
+  {
+    "title": "Beach Party",
+    "description": "Friends having fun at a beach party."
+  },
+  {
+    "title": "National Park",
+    "description": "A stunning view of a national park with rolling hills."
+  },
+  {
+    "title": "Sunrise over the Ocean",
+    "description": "The sun rising over the ocean horizon."
+  },
+  { "title": "Mountaintop View", "description": "A breathtaking view from the top of a mountain." },
+  {
+    "title": "Foggy Forest",
+    "description": "A mysterious foggy forest early in the morning."
+  },
+  {
+    "title": "Waterfall",
+    "description": "A massive waterfall cascading down the cliffs.",
+    "resource": "https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg"
+  },
+  {
+    "title": "Autumn Leaves",
+    "description": "Colorful autumn leaves scattered on the ground."
+  },
+  { "title": "Wildlife in Africa", "description": "A group of lions resting in the savannah." },
+  {
+    "title": "Northern Lights",
+    "description": "The breathtaking Northern Lights lighting up the night sky.",
+    "resource": "https://www.youtube.com/embed/EknqXrAwBVQ?si=kmIacbFL7eJqez8R"
+  },
+  {
+    "title": "Drone over the City",
+    "description": "Aerial view of a sprawling cityscape with skyscrapers.",
+    "resource": "https://images.pexels.com/photos/1834070/pexels-photo-1834070.jpeg"
+  },
+  {
+    "title": "Snowy Mountain",
+    "description": "A snow-covered mountain peak in the winter.",
+    "resource": "https://images.pexels.com/photos/3468852/pexels-photo-3468852.jpeg"
+  },
+  { "title": "Desert Oasis", "description": "An oasis in the middle of a vast desert." },
+  {
+    "title": "Ocean Cliff",
+    "description": "Cliffs overlooking the vast ocean.",
+    "resource": "https://images.pexels.com/photos/1796755/pexels-photo-1796755.jpeg"
+  },
+  {
+    "title": "Tropical Paradise",
+    "description": "A beautiful tropical island with turquoise water.",
+    "resource": "https://images.pexels.com/photos/1733619/pexels-photo-1733619.jpeg"
+  },
+  {
+    "title": "Wild Horses",
+    "description": "A group of wild horses running free in the plains.",
+    "resource": "https://images.pexels.com/photos/1782415/pexels-photo-1782415.jpeg"
+  },
+  {
+    "title": "Mediterranean Coast",
+    "description": "The clear blue waters of the Mediterranean coast."
+  },
+  {
+    "title": "Urban Park",
+    "description": "A lush green park in the middle of a bustling city.",
+    "resource": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg"
+  },
+  {
+    "title": "Night Sky",
+    "description": "A clear night sky filled with stars."
+  },
+  {
+    "title": "Hiking the Rockies",
+    "description": "A hiker on a trail in the Rocky Mountains.",
+    "resource": "https://images.pexels.com/photos/1068963/pexels-photo-1068963.jpeg"
+  },
+  {
+    "title": "River Rapids",
+    "description": "A thrilling ride down the river rapids.",
+    "resource": "https://images.pexels.com/photos/3271755/pexels-photo-3271755.jpeg"
+  },
+  {
+    "title": "City at Dusk",
+    "description": "A cityscape at dusk with the skyline lit up.",
+    "resource": "https://images.pexels.com/photos/2682213/pexels-photo-2682213.jpeg"
+  },
+  { "title": "Desert Landscape", "description": "Vast sand dunes stretching across the desert." },
+  {
+    "title": "Sailing",
+    "description": "Sailing on a calm ocean under a clear sky.",
+    "resource": "https://images.pexels.com/photos/3245810/pexels-photo-3245810.jpeg"
+  },
+  {
+    "title": "Lake Reflection",
+    "description": "The reflection of mountains on a serene lake.",
+    "resource": "https://images.pexels.com/photos/1108091/pexels-photo-1108091.jpeg"
+  },
+  { "title": "Underwater", "description": "A vibrant coral reef teeming with fish." },
+  {
+    "title": "Ancient Ruins",
+    "description": "A glimpse of ancient ruins in the middle of the jungle.",
+    "resource": "https://images.pexels.com/photos/3851245/pexels-photo-3851245.jpeg"
+  },
+  {
+    "title": "Hot Air Balloon",
+    "description": "A hot air balloon ride over the valley.",
+    "resource": "https://images.pexels.com/photos/2150591/pexels-photo-2150591.jpeg"
+  },
+  {
+    "title": "Biking on the Trail",
+    "description": "A cyclist riding through a dirt trail in the mountains."
+  },
+  {
+    "title": "Starry Night",
+    "description": "A brilliant view of the Milky Way on a starry night."
+  },
+  {
+    "title": "Safari in Africa",
+    "description": "A safari jeep driving through the African savannah."
+  },
+  {
+    "title": "Scenic Overlook",
+    "description": "A beautiful overlook of the valley and mountains.",
+    "resource": "https://images.pexels.com/photos/3338744/pexels-photo-3338744.jpeg"
+  },
+  {
+    "title": "Tropical Rainforest",
+    "description": "A dense tropical rainforest filled with wildlife."
+  },
+  {
+    "title": "Countryside",
+    "description": "The rolling hills of a peaceful countryside.",
+    "resource": "https://images.pexels.com/photos/3158597/pexels-photo-3158597.jpeg"
+  },
+  { "title": "Coastal Cliffs", "description": "The dramatic cliffs along the coast at sunrise." },
+  {
+    "title": "Fishing Village",
+    "description": "A quiet fishing village by the sea."
+  },
+  {
+    "title": "Trekking in Nepal",
+    "description": "Trekking in the beautiful landscapes of Nepal."
+  },
+  {
+    "title": "Island Paradise",
+    "description": "A remote island paradise with white sand beaches.",
+    "resource": "https://images.pexels.com/photos/2133967/pexels-photo-2133967.jpeg"
+  },
+  {
+    "title": "Autumn in the Park",
+    "description": "Autumn colors in a city park.",
+    "resource": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg"
+  },
+  {
+    "title": "Sunrise at the Beach",
+    "description": "A beautiful sunrise at the beach with calm waves.",
+    "resource": "https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg"
+  },
+  {
+    "title": "Coral Reef Dive",
+    "description": "Scuba diving near a vibrant coral reef.",
+    "resource": "https://www.youtube.com/embed/F06skYYY7ws?si=d9PZ62o3RVLmHrbl"
+  }
+]

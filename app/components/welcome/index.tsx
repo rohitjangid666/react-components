@@ -48,6 +48,10 @@ const componetsRoutes = [
     text: 'Input Field Grows',
   },
   {
+    href: '/react-virtuoso',
+    text: 'React Virtuoso',
+  },
+  {
     href: '/contact-us',
     text: 'Contact Us',
   },

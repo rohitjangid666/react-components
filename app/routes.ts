@@ -8,5 +8,6 @@ export default [
     route('corner-only-borders', 'routes/corner-only-borders.tsx'),
     route('cards', 'routes/cards.tsx'),
     route('input-field-grows', 'routes/input-field-grows.tsx'),
+    route('react-virtuoso', 'routes/react-virtuoso.tsx'),
   ]),
 ] satisfies RouteConfig;
