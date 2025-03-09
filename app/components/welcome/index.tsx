@@ -12,7 +12,7 @@ export function Welcome() {
         <div className='max-w-[90vw] w-full space-y-6 px-4'>
           <nav className='rounded-3xl border border-gray-200 p-6 dark:border-gray-700 space-y-4'>
             <ul>
-              {componetsRoutes.map(({ href, text }) => (
+              {componentsRoutes.map(({ href, text }) => (
                 <li key={href}>
                   <Link
                     className='group flex items-center gap-3 self-stretch p-3 leading-normal text-blue-700 hover:underline dark:text-blue-500'
@@ -30,7 +30,7 @@ export function Welcome() {
   );
 }
 
-const componetsRoutes = [
+const componentsRoutes = [
   {
     href: '/inverted-border-radius',
     text: 'Inverted Border Radius',
