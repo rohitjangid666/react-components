@@ -4,7 +4,7 @@ import type { Route } from './+types/inverted-border-radius';
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'Inverted Border Radius - React Compoents' },
+    { title: 'Inverted Border Radius - React Components' },
     { name: 'description', content: 'Inverted Border Radius' },
   ];
 }

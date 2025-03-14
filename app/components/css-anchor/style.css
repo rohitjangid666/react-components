@@ -1,0 +1,38 @@
+[popover] {
+  /* if using */
+  /* bottom: anchor(top);
+  left: anchor(center); */
+  /* then use this */
+  /* anchor-default: --i-btn */
+
+  inset: unset;
+  translate: -50%;
+  margin: 0.25rem 0;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  border: 1px solid #fff;
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.5);
+
+  bottom: anchor(--i-btn top);
+  left: anchor(--i-btn center);
+  position-fallback: --top-to-bottom;
+}
+
+.information {
+  anchor-name: --i-btn;
+}
+
+@position-fallback --top-to-bottom {
+  @try {
+    bottom: anchor(--i-btn top);
+    left: anchor(--i-btn center);
+  }
+
+  @try {
+    bottom: anchor(--i-btn bottom);
+    left: anchor(--i-btn center);
+  }
+}

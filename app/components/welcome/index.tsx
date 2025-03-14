@@ -52,6 +52,10 @@ const componentsRoutes = [
     text: 'React Virtuoso',
   },
   {
+    href: '/css-anchor',
+    text: 'CSS Anchor',
+  },
+  {
     href: '/contact-us',
     text: 'Contact Us',
   },
