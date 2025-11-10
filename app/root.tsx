@@ -1,8 +1,4 @@
-import { useEffect } from 'react';
-
 import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration } from 'react-router';
-
-import { scan } from 'react-scan';
 
 import type { Route } from './+types/root';
 import './app.css';
@@ -28,12 +24,6 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  useEffect(() => {
-    scan({
-      enabled: true,
-    });
-  }, []);
-
   return (
     <html lang='en'>
       <head>

@@ -59,4 +59,8 @@ const componentsRoutes = [
     href: '/contact-us',
     text: 'Contact Us',
   },
+  {
+    href: '/switch-case',
+    text: 'Switch Case',
+  },
 ];

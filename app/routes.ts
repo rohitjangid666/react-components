@@ -10,5 +10,6 @@ export default [
     route('input-field-grows', 'routes/input-field-grows.tsx'),
     route('react-virtuoso', 'routes/react-virtuoso.tsx'),
     route('css-anchor', 'routes/css-anchor.tsx'),
+    route('switch-case', 'routes/switch-case.tsx'),
   ]),
 ] satisfies RouteConfig;
