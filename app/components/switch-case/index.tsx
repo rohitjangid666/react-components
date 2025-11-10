@@ -15,7 +15,7 @@ type DefaultProps = {
   children: ReactNode;
 };
 
-export function Switch<T>({ children, match = 'first', value }: SwitchProps<T>) {
+export function Switch<T>({ children, match = 'all', value }: SwitchProps<T>) {
   const passedCases: ReactNode[] = [];
   let defaultCase: ReactNode | null = null;
 
@@ -48,6 +48,16 @@ export function Switch<T>({ children, match = 'first', value }: SwitchProps<T>) 
 //   return children;
 // }
 
-export const Case = <T,>({ children }: CaseProps<T>) => <>{children}</>;
+export const Case = <T,>({ children }: CaseProps<T>) => (
+  <>
+    {children}
+    <br />
+  </>
+);
 
-export const Default = ({ children }: DefaultProps) => <>{children}</>;
+export const Default = ({ children }: DefaultProps) => (
+  <>
+    {children}
+    <br />
+  </>
+);

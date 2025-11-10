@@ -29,7 +29,7 @@ const Page = () => {
 
       <br />
 
-      <Switch<number> value={count} match='all'>
+      <Switch<number> value={count} match='first'>
         <Case<number> when={v => v < 0}>Negative number ❌</Case>
         <Case when={0}>Zero 🟡</Case>
         <Case<number> when={v => v > 0 && v < 10}>Between 1 and 9 ✅</Case>
