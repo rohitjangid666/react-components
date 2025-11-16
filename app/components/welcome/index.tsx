@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
+
+import Fuse from 'fuse.js';
 import { Link } from 'react-router';
 
 import Logo from '../shared/Logo';
@@ -6,8 +8,22 @@ import Logo from '../shared/Logo';
 export function Welcome() {
   const [search, setSearch] = useState('');
 
-  // Filtered routes based on search input
-  const filteredRoutes = componentsRoutes.filter(route => route.text.toLowerCase().includes(search.toLowerCase()));
+  // Fuse.js setup
+  const fuse = useMemo(() => {
+    return new Fuse(componentsRoutes, {
+      keys: ['text'],
+      includeScore: true,
+      threshold: 0.4, // lower = stricter match
+    });
+  }, []);
+
+  const searchResults = search ? fuse.search(search).map(result => result.item) : componentsRoutes;
+
+  // Did you mean suggestion (first closest result)
+  const suggestion =
+    search && searchResults.length > 0 && searchResults[0].text.toLowerCase() !== search.toLowerCase()
+      ? searchResults[0].text
+      : null;
 
   return (
     <main className='flex items-center justify-center pt-16 pb-4'>
@@ -18,7 +34,7 @@ export function Welcome() {
 
         <div className='max-w-[90vw] w-full px-4'>
           {/* Search Bar */}
-          <div className='mb-8 w-full max-w-md mx-auto'>
+          <div className='mb-4 w-full max-w-md'>
             <input
               type='text'
               placeholder='Search components...'
@@ -30,12 +46,22 @@ export function Welcome() {
                          focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
                          transition'
             />
+            <span className='text-xs text-gray-500'>
+              *Using <strong>fuse.js</strong> for suggestions
+            </span>
+            {/* Suggestion */}
+            {suggestion && suggestion.toLowerCase() !== search.toLowerCase() && (
+              <p className='mt-2 text-sm text-gray-500 dark:text-gray-400' onClick={() => setSearch(suggestion)}>
+                Did you mean{' '}
+                <span className='text-blue-600 dark:text-blue-400 cursor-pointer underline'>{suggestion}</span>?
+              </p>
+            )}
           </div>
 
           {/* Card Grid */}
           <nav className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-            {filteredRoutes.length > 0 ? (
-              filteredRoutes.map(({ href, text }, i) => (
+            {searchResults.length > 0 ? (
+              searchResults.map(({ href, text }, i) => (
                 <Link
                   key={href}
                   to={href}
