@@ -11,5 +11,6 @@ export default [
     route('react-virtuoso', 'routes/react-virtuoso.tsx'),
     route('css-anchor', 'routes/css-anchor.tsx'),
     route('switch-case', 'routes/switch-case.tsx'),
+    route('casl-ability', 'routes/casl-ability.tsx'),
   ]),
 ] satisfies RouteConfig;

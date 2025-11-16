@@ -63,4 +63,8 @@ const componentsRoutes = [
     href: '/switch-case',
     text: 'Switch Case',
   },
+  {
+    href: '/casl-ability',
+    text: 'CASL Ability',
+  },
 ];
